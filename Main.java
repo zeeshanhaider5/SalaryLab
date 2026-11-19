@@ -7,7 +7,7 @@ public class Main{
     //return High (>=50000), Medium (>=30000) or Low category.
     public static String getCategory(int salary){
         if (salary >= 50000) return "High";
-        else if (salary >= 30000) return "Medium";
+        else if (salary >= 35000) return "Medium";
         else return "Low";
     }
 
